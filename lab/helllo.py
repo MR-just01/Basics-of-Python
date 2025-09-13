@@ -17,7 +17,7 @@
 # print(a)
 # print(b)
 
-##INOUT THREE NUMBER ND FIND GREATEST OF ALL THREE
+##INPUT THREE NUMBER ND FIND GREATEST OF ALL THREE
 
 
 # num1 = int(input("enter the number "))
