@@ -1,7 +1,7 @@
-import module as calc
+import Begnnings.module as calc
 
 ##import the specific function 
-from module import add
+from Begnnings.module import add
 
 
 a=5 
