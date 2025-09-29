@@ -51,18 +51,21 @@
 #     print("opps computer win and you lose ")
 
  ##number guessing game 
-# import random
-# c_choice =random.randrange(1,7)
-# u_choice = int(input("Enter the number between 1 to 6 :"))
-# print("computer chose : " , c_choice)
-# # attempt = 3
-# # # while(attempt>0):
-# if(u_choice >c_choice):
-#     print("you guessed the higher number!!")
-# elif(u_choice == c_choice):
-#     print("you guessed right !!")
-# else:
-#      print("you guessed wrong number ")
+import random
+c_choice =random.randrange(1,7)
+
+print("computer chose : " , c_choice)
+attempt = 0 
+max_attempt = 3
+while(attempt<max_attempt):
+    u_choice = int(input(f" Attempt {attempt+1} : Enter the number between 1 to 6 :"))
+    attempt+=1
+    if(u_choice == c_choice):
+     print("you guessed the right number!!")
+    elif(u_choice > c_choice):
+     print("you guessed  higher number !!")
+    else:
+     print("you guessed lower number ")
     
 # ##dice rolling game
 
