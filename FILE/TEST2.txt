@@ -1,3 +1,7 @@
 namaste london is the great rom-com
 movie
 kat is a great actor
+ this is written in read and write mode namaste london is the great rom-com
+movie
+kat is a great actor
+ this is written in read and write mode 

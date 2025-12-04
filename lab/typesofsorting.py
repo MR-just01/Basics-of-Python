@@ -11,12 +11,13 @@ for i in range(1,len(array)):
 
 print("array after sorting : " ,array)
 
-# ##selection sort 
+##selection sort 
 array = [12, 155, 10,9,3,5]
 print("array before sorting : " ,array)
-for i in range(len(array)):
+n = len(array)
+for i in range(n):
     min = i
-    for j in range(i+1 , len(array)):
+    for j in range(i+1 , n):
         if array[j]<array[min]:
             min = j
 
